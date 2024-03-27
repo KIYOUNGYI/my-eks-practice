@@ -46,7 +46,7 @@ jobs:
       - name: Checkout Helm Repository
         uses: actions/checkout@v3
         with:
-          repository: attachnplay/my-eks-practice-helm-charts
+          repository: KIYOUNGYI/my-eks-practice-helm-charts
           path: helm-chart
           ref: main
           ssh-key: ${{ secrets.HELM_CHARTS_REPO_KEY }}
