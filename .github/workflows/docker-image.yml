@@ -43,6 +43,7 @@ jobs:
 #          envsubst < Dockerfile.light-template | docker build -t $REGISTRY/$REPOSITORY:$IMAGE_TAG -f - .
 #          docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
 
+
       - name: Checkout Helm Repository
         uses: actions/checkout@v3
         with:
