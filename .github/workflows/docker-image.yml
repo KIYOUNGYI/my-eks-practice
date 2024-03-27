@@ -49,3 +49,4 @@ jobs:
           repository: attachnplay/my-eks-practice-helm-charts
           path: helm-chart
           ref: main
+          ssh-key: ${{ secrets.HELM_CHARTS_REPO_KEY }}
